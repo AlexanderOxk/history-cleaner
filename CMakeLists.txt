@@ -14,8 +14,6 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
 
-add_subdirectory(submodules/re2)
-
 add_subdirectory(src)
 
 if(SVLENS_INCLUDE_TESTS)

@@ -1,3 +1,0 @@
-[submodule "submodules/re2"]
-	path = submodules/re2
-	url = https://github.com/google/re2.git
