@@ -38,4 +38,5 @@ Checks: >
     -misc-header-include-cycle,
     -performance-no-int-to-ptr,
     -performance-enum-size,
+    -performance-avoid-endl,
     -portability-simd-intrinsics
