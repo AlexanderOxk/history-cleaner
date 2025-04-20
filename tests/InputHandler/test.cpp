@@ -3,14 +3,21 @@
 #include <iostream>
 
 int main(int argc, const char** argv) {
-    const std::array<std::string, 3> expected = {
+    const std::array<std::string, 4> expected = {
+        "µ l'été åäö",
         "Hello world! Big summer blowout",
         "second",
         "first",
     };
 
+    if (argc < 2) {
+        std::cerr << "Missing input file path argument." << std::endl;
+        return 1;
+    }
+
+    std::string input_file(argv[1]);
     std::cout << "Running on file: " << argv[1] << std::endl;
-    InputHandler input_handler(argv[1]);
+    InputHandler input_handler(input_file);
     std::string line;
     int errors = 0;
 

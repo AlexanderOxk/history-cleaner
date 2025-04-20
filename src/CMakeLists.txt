@@ -1,6 +1,7 @@
 add_library(
   history-cleaner-lib
   InputHandler.cpp
+  Config.cpp
 )
 
 add_executable(

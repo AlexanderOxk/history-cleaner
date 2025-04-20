@@ -92,6 +92,7 @@ QualifierAlignment: Leave
 ReferenceAlignment: Left
 ReflowComments: true
 #RequiresClausePosition: WithPreceding
+SeparateDefinitionBlocks: Always
 SortIncludes: CaseSensitive
 SortUsingDeclarations: true
 SpaceAfterCStyleCast: false

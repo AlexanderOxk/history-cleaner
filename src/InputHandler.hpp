@@ -1,10 +1,12 @@
+#pragma once
+
 #include <string>
 #include <vector>
 
 class InputHandler {
 public:
     InputHandler() = delete;
-    InputHandler(std::string filename);
+    InputHandler(const std::string& filename);
 
     const std::string& GetLine();
     bool HasLine() const;
