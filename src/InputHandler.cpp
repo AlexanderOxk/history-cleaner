@@ -1,9 +1,8 @@
 #include "InputHandler.hpp"
 
 #include <fstream>
-#include <iostream>
 
-InputHandler::InputHandler(std::string file_name) {
+InputHandler::InputHandler(const std::string& file_name) {
     std::ifstream file(file_name);
     std::string line;
     while (std::getline(file, line)) {
